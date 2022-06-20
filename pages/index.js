@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Sidebar from "../components/Sidebar/Sidebar";
 import Feed from "../components/Feed/Feed";
+import Widgets from "../components/Widget/Widgets";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
             {/*Feed*/}
             <Feed/>
             {/*Widgets*/}
-
+            <Widgets/>
             {/*Modal*/}
         </main>
         
